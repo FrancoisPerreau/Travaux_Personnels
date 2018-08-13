@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>François Perreau</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+
+<body>
+
+  <!-- Nav pour XS -->
+  <nav class="navbar-responsive">
+    <ul>
+      <li><a class="scroll" id="about" href="#">À propos</a></li>
+      <li><a class="scroll" id="skill" href="#">Compétences</a></li>
+      <li><a class="scroll" id="experience" href="#">Expériences</a></li>
+      <li><a class="scroll" id="work" href="#">Réalisations</a></li>
+    </ul>
+  </nav>
+
+  <!-- ****** Header ****** -->
+  <!-- ******************** -->
+  <header>
+    <div class="container">
+      <div class="row nomNavbar">
+        <!-- Mon nom -->
+        <div class="nom col-9 col-lg-4">
+            <h1>PERREAU <span class="prenom">François</span></h1>
+            <hr />
+            <h2>Graphisme print & web</h2>
+        </div>
+
+            <!-- Nav bar -->
+            <div class="navbar col-3 col-lg-8">
+              <nav class="hidden-md-down">
+                <ul>
+                  <li><a class="scroll hvr-underline-from-left lienNavbar" id="about" href="#">À propos</a></li>
+                  <li><a class="scroll hvr-underline-from-left lienNavbar" id="skill" href="#">Compétences</a></li>
+                  <li><a class="scroll hvr-underline-from-left lienNavbar" id="experience" href="#">Expériences</a></li>
+                  <li><a class="scroll hvr-underline-from-left lienNavbar" id="work" href="#">Réalisations</a></li>
+                </ul>
+              </nav>
+
+              <nav class="hidden-lg-up"><!-- Picto qui apparait à la place du menu en XS -->
+                <ul>
+                  <li><a href="#"><img class="menu" src="img/site/menu.svg" alt="menu.svg"></a></li>
+                </ul>
+              </nav>
+            </div><!-- Fin navbar -->
+
+      </div><!-- Fin row nom et navbar -->
+      <a class="scroll down-arrow" id="about" href="#"><img src="img/site/down-arrow.svg" alt="down-arrow.svg"></a>
+    </div>
+  </header>
+
+
+    <!-- ***** Main *****
+    ********************* -->
+    <main>
+
+      <!-- ***** À pros ***** -->
+      <!-- ****************** -->
+      <section class="about">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-6">
+              <h2 class="text-lg-left titreSec">À propos</h2>
+              <hr class="mx-lg-0"/>
+              <h3><strong>PERREAU François,</strong> Designer ou Codeur ?</h3>
+              <p><strong>Et pourquoi pas les deux ?</strong><br/>
+              Graphiste depuis 20 ans, j'ai pris beaucoup de plaisir à travailler pour des marques aussi exigeantes que Whirlpool, Philips, l'Alstom Open de France, le Dakar ou le Tour de France...<br/>
+              Mais j'ai souvent ressenti le besoin d'aller plus loin que les supports papier ou digitaux tels que les pdf interactifs ou le Publish Online (cf inDesign).
+              J’ai donc choisi de suivre une formation de codeur Web pour apprendre de nouvelles technologies et ainsi compléter mes compétences.
+              </p>
+
+              <ul>
+                <li>E-mail : <a href="mailto:f.perreau@orange.fr">f.perreau@orange.fr</a></li>
+                <li>Téléphone : 06 03 53 31 02</li>
+              </ul>
+
+            </div><!--Fin Colonne 1/2-->
+
+            <div class="col-6 hidden-md-down">
+              <img class="picture" src="img/site/Portrait-cv.png" alt="Portrait-cv.png" />
+            </div>
+          </div><!--Fin row-->
+        </div><!--Fin container-->
+      </section><!--Fin section À propos-->
+
+
+      <!-- ***** Compétences ***** -->
+      <!-- *********************** -->
+      <section class="skill">
+        <div class="container">
+          <h2 class="titreSec">Mes compétences</h2>
+          <hr />
+          <div class="row">
+            <div class="flex col-12 col-lg-6">
+              <div class="pourcentage">85%</div>
+              <div class="progress-container">
+                <strong>Création</strong>
+                <div class="progress"><!-- class bootstrap -->
+                  <div class="progress-bar progress-bar-f" style="width: 85%"></div>
+                </div>
+              </div>
+            </div><!--fin d'une progess-bar compétence -->
+
+
+            <div class="flex col-12 col-lg-6">
+              <div class="pourcentage">90%</div>
+              <div class="progress-container">
+                <strong>Travail en équipe</strong>
+                <div class="progress"><!-- class bootstrap -->
+                  <div class="progress-bar progress-bar-f" style="width: 90%"></div>
+                </div>
+              </div>
+            </div><!--fin d'une progess-bar compétence -->
+
+
+            <div class="flex col-12 col-lg-6">
+              <div class="pourcentage">95%</div>
+              <div class="progress-container">
+                <strong>Photoshop, illustrator</strong>
+                <div class="progress"><!-- class bootstrap -->
+                  <div class="progress-bar" style="width: 95%"></div>
+                </div>
+              </div>
+            </div><!--fin d'une progess-bar compétence -->
+
+            <div class="flex col-12 col-lg-6">
+              <div class="pourcentage">40%</div>
+              <div class="progress-container">
+                <strong>HTML5, CSS3, Javasript</strong>
+                <div class="progress"><!-- class bootstrap -->
+                  <div class="progress-bar" style="width: 40%"></div>
+                </div>
+              </div>
+            </div><!--fin d'une progess-bar compétence -->
+
+            <div class="flex col-12 col-lg-6">
+              <div class="pourcentage">90%</div>
+              <div class="progress-container">
+                <strong>InDesign</strong>
+                <div class="progress"><!-- class bootstrap -->
+                  <div class="progress-bar" style="width: 90%"></div>
+                </div>
+              </div>
+            </div><!--fin d'une progess-bar compétence -->
+
+            <div class="flex col-12 col-lg-6">
+              <div class="pourcentage">30%</div>
+              <div class="progress-container">
+                <strong>PHP, Ruby</strong>
+                <div class="progress"><!-- class bootstrap -->
+                  <div class="progress-bar" style="width: 30%"></div>
+                </div>
+              </div>
+            </div><!--fin d'une progess-bar compétence -->
+          </div><!-- Fin row -->
+        </div><!-- Fin container -->
+      </section>
+
+
+      <!-- ***** Expériences ***** -->
+      <!-- *********************** -->
+      <section class="experience">
+        <div class="container">
+          <h2 class="titreSec">Mes expériences professionnelles</h2>
+          <hr />
+          <div class="row">
+            <!-- expérience 01 -->
+            <div class="col-12 col-lg-6 d-lg-flex align-items-stretch">
+              <article>
+                <div class="periode">2003 / 2017</div>
+                <h3>A.S.O.</h3>
+                <h4>Société d’événementiel sportif</h4>
+                <p><strong>Graphiste</strong><br />
+                Chargé de la communication print d’événements tels que : le Tour de France, le Dakar, le Marathon de Paris, l’Open de France de golf, le Mud day...
+                </p>
+              </article>
+            </div><!-- Fin colonne -->
+
+            <!-- expérience 02 -->
+            <div class="col-12 col-lg-6 d-lg-flex align-items-stretch">
+              <article>
+                <div class="periode">1998 / 2003</div>
+                <h3>CDJ Publicité</h3>
+                <h4>Agence de publicité</h4>
+                <p><strong>Graphiste</strong><br />
+                Interlocuteur des clients Whirlpool, Philips téléphonie, Thales, Bombardier, Alstom, Bata...
+                </p>
+              </article>
+            </div><!-- Fin colonne -->
+
+            <!-- expérience 03 -->
+            <div class="col-12 col-lg-6 d-lg-flex align-items-stretch">
+              <article>
+                <div class="periode">1996 / 1998</div>
+                <h3>Musicalement Vôtre</h3>
+                <h4>Société vendant du matériel de sonorisation</h4>
+                <p><strong>Infographiste, maquettiste</strong><br />
+                Création et réalisation de la communication de l’entreprise.
+                </p>
+              </article>
+            </div><!-- Fin colonne -->
+
+            <!-- expérience 04 -->
+            <div class="col-12 col-lg-6 d-lg-flex align-items-stretch">
+              <article>
+                <div class="periode">1995</div>
+                <h3>Tecfluid</h3>
+                <h4></h4><br />
+                <p><strong>Technico-commercial</strong><br />
+                Conseils et vente de matériel de mesure de fluides.
+                </p>
+              </article>
+            </div><!-- Fin colonne -->
+
+          </div><!-- Fin row -->
+        </div><!-- Fin container -->
+      </section>
+
+
+      <!-- ***** Réalisations ***** -->
+      <!-- ************************ -->
+      <section class="work">
+        <div class="container">
+          <h2 class="titreSec">Mes réalisations</h2>
+          <hr />
+          <p>Une séléction de quelques créations</p>
+          <div class="row">
+
+            <!-- Image-01 -->
+            <div class="col-6 col-lg-3">
+              <figure>
+                <a href="img/realisations/DAK-CAT-01-950x700-1.jpg" data-lightbox="DAK-CAT" data-title="Création et réalisation d'un catalogue de produits dérivés pour le Dakar">
+                <figcaption>
+                  <h3>Dakar</h3>
+                  <h4>Catalogue textile</h4>
+                  <img src="img/site/loupe.svg" alt="loupe.svg">
+                </figcaption>
+                </a>
+                <img src="img/realisations/DAK-CAT-xs.jpg" alt="DAK-CAT-xs.jpg">
+              </figure>
+              <a href="img/realisations/DAK-CAT-01-950x700-2.jpg" data-lightbox="DAK-CAT" data-title="Création et réalisation d'un catalogue de produits dérivés pour le Dakar"></a>
+              <a href="img/realisations/DAK-CAT-01-950x700-3.jpg" data-lightbox="DAK-CAT" data-title="Création et réalisation d'un catalogue de produits dérivés pour le Dakar"></a>
+            </div><!-- Fin colonne -->
+
+            <!-- Image-02 -->
+            <div class="col-6 col-lg-3">
+              <figure>
+                <a href="img/realisations/DAK-PQL-HRP-950x700-1.jpg" data-lightbox="DAK-PQL" data-title="Création et réalisation d'une plaquette pour faire la promotion de prestations HRP sur le Dakar">
+                <figcaption>
+                  <h3>Dakar</h3>
+                  <h4>Plaquette HRP<br/>(Publish Online)</h4>
+                  <img src="img/site/loupe.svg" alt="loupe.svg">
+                </figcaption>
+                </a>
+                <img src="img/realisations/DAK-PQL-HRP-xs.jpg" alt="DAK-PQL-HRP-xs.jpg">
+              </figure>
+              <a href="img/realisations/DAK-PQL-HRP-950x700-2.jpg" data-lightbox="DAK-PQL" data-title="Création et réalisation d'une plaquette pour faire la promotion de prestations HRP sur le Dakar"></a>
+              <a href="img/realisations/DAK-PQL-HRP-950x700-3.jpg" data-lightbox="DAK-PQL" data-title="Création et réalisation d'une plaquette pour faire la promotion de prestations HRP sur le Dakar"></a>
+            </div><!-- Fin colonne -->
+
+            <!-- Image-03 -->
+            <div class="col-6 col-lg-3">
+              <figure>
+                <a href="img/realisations/TDF-GD-950x700-1.jpg" data-lightbox="TDF-GD" data-title="Création et réalisation du dossier de presse pour le Grand Départ de Düsseldorf">
+                <figcaption>
+                  <h3>Tour de France</h3>
+                  <h4>Dossier de presse</h4>
+                  <img src="img/site/loupe.svg" alt="loupe.svg">
+                </figcaption>
+                </a>
+                <img src="img/realisations/TDF-GD-xs.jpg" alt="TDF-GD-xs.jpg">
+              </figure>
+              <a href="img/realisations/TDF-GD-950x700-2.jpg" data-lightbox="TDF-GD" data-title="Création et réalisation du dossier de presse pour le Grand Départ de Düsseldorf"></a>
+              <a href="img/realisations/TDF-GD-950x700-3.jpg" data-lightbox="TDF-GD" data-title="Création et réalisation du dossier de presse pour le Grand Départ de Düsseldorf"></a>
+            </div><!-- Fin colonne -->
+
+            <!-- Image-04 -->
+            <div class="col-6 col-lg-3">
+              <figure>
+                <a href="img/realisations/TDF-DP-950x700-1.jpg" data-lightbox="TDF-DP" data-title="Création et réalisation du dossier de presse annonçant le parcours 2017">
+                <figcaption>
+                  <h3>Tour de France</h3>
+                  <h4>Dossier de presse</h4>
+                  <img src="img/site/loupe.svg" alt="loupe.svg">
+                </figcaption>
+                </a>
+                <img src="img/realisations/TDF-DP-xs.jpg" alt="TDF-DP-xs.jpg">
+              </figure>
+              <a href="img/realisations/TDF-DP-950x700-2.jpg" data-lightbox="TDF-DP" data-title="Création et réalisation du dossier de presse annonçant le parcours 2017"></a>
+              <a href="img/realisations/TDF-DP-950x700-3.jpg" data-lightbox="TDF-DP" data-title="Création et réalisation du dossier de presse annonçant le parcours 2017"></a>
+            </div><!-- Fin colonne -->
+
+            <!-- Image-05 -->
+            <div class="col-6 col-lg-3">
+              <figure>
+                <a href="img/realisations/MDP-Guide-01-950x700-1.jpg" data-lightbox="MDP-Guide" data-title="Création et réalisation d'un guide à destination des marathoniens">
+                <figcaption>
+                  <h3>Marathon de Paris</h3>
+                  <h4>Guide du marathonien<br />(Publish Online)</h4>
+                  <img src="img/site/loupe.svg" alt="loupe.svg">
+                </figcaption>
+                </a>
+                <img src="img/realisations/MDP-Guide-xs.jpg" alt="MDP-Guide-xs.jpg">
+              </figure>
+              <a href="img/realisations/MDP-Guide-01-950x700-2.jpg" data-lightbox="MDP-Guide" data-title="Création et réalisation d'un guide à destination des marathoniens"></a>
+              <a href="img/realisations/MDP-Guide-01-950x700-3.jpg" data-lightbox="MDP-Guide" data-title="Création et réalisation d'un guide à destination des marathoniens"></a>
+            </div><!-- Fin colonne -->
+
+            <!-- Image-06 -->
+            <div class="col-6 col-lg-3">
+              <figure>
+                <a href="img/realisations/ODF-PO-950x700-1.jpg" data-lightbox="ODF-PO" data-title="Création et réalisation du programme officiel de l'Alstom Open de France de golf">
+                <figcaption>
+                  <h3>Alstom<br />Open de France</h3>
+                  <h4>Programme Officiel</h4>
+                  <img src="img/site/loupe.svg" alt="loupe.svg">
+                </figcaption>
+                </a>
+                <img src="img/realisations/ODF-PO-xs.jpg" alt="ODF-PO-xs.jpg">
+              </figure>
+              <a href="img/realisations/ODF-PO-950x700-2.jpg" data-lightbox="ODF-PO" data-title="Création et réalisation du programme officiel de l'Alstom Open de France de golf"></a>
+              <a href="img/realisations/ODF-PO-950x700-3.jpg" data-lightbox="ODF-PO" data-title="Création et réalisation du programme officiel de l'Alstom Open de France de golf"></a>
+            </div><!-- Fin colonne -->
+
+            <!-- Image-07 -->
+            <div class="col-6 col-lg-3">
+              <figure>
+                <a href="img/realisations/SMP-Bene-950x700-1.jpg" data-lightbox="SMP-Bene" data-title="Création et réalisation d'un guide à destination des bénévoles du semi-marathon de Paris">
+                <figcaption>
+                  <h3>Semi-Marathon<br />de Paris</h3>
+                  <h4>Guides des bénévoles<br />(Publish Online)</h4>
+                  <img src="img/site/loupe.svg" alt="loupe.svg">
+                </figcaption>
+                </a>
+                <img src="img/realisations/SMP-Bene-xs.jpg" alt="SMP-Bene-xs.jpg">
+              </figure>
+              <a href="img/realisations/SMP-Bene-950x700-2.jpg" data-lightbox="SMP-Bene" data-title="Création et réalisation d'un guide à destination des bénévoles du semi-marathon de Paris"></a>
+              <a href="img/realisations/SMP-Bene-950x700-3.jpg" data-lightbox="SMP-Bene" data-title="Création et réalisation d'un guide à destination des bénévoles du semi-marathon de Paris"></a>
+            </div><!-- Fin colonne -->
+
+            <!-- Image-08 -->
+            <div class="col-6 col-lg-3">
+              <figure>
+                <a href="img/realisations/Perso_1.jpg" data-lightbox="Perso" data-title="Proposition de logos pour un groupe automobile">
+                <figcaption>
+                  <h3>Quelques réalisations<br />personnelles</h3>
+
+                  <img src="img/site/loupe.svg" alt="loupe.svg">
+                </figcaption>
+                </a>
+                <img src="img/realisations/Perso_xs.jpg" alt="Perso_xs.jpg">
+              </figure>
+              <a href="img/realisations/Perso_2.jpg" data-lightbox="Perso" data-title="Création d'un logo pour une Team de jeux vidéo"></a>
+              <a href="img/realisations/Perso_3.jpg" data-lightbox="Perso" data-title="Proposition de logo pour la formation Codeurs Web 18"></a>
+              <a href="img/realisations/Perso_4.jpg" data-lightbox="Perso" data-title="Illustration 3D faite avec Blender"></a>
+              <a href="img/realisations/Perso_5.jpg" data-lightbox="Perso" data-title="Illustration 3D faite avec Blender"></a>
+            </div><!-- Fin colonne -->
+
+          </div><!-- Fin row -->
+          <p class="mentions">Ces travaux demeurent la propriété de leurs ayant droits<br />
+             et ne sont présentés ici qu'au titre d'exemple de mon travail.</p>
+        </div><!-- Fin container -->
+      </section>
+
+
+      <!-- ***** Footer ***** -->
+      <!-- ****************** -->
+      <footer>
+        <div class="container">
+          <p>François PERREAU  |  All Right Reserved</p>
+        </div>
+      </footer>
+    </main>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+  <script src="js/lightbox.min.js" ></script>
+  <script src="js/monCV.js"></script>
+</body>
+</html>
